@@ -1,0 +1,28 @@
+{
+  "name": "rnsample",
+  "version": "1.0.0",
+  "description": "a sample for react-native",
+  "main": "indedx.android.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output app/src/main/assets/index.android.bundle --sourcemap-output app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuanClouds/RnSample.git"
+  },
+  "keywords": [
+    "siven"
+  ],
+  "author": "siven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuanClouds/RnSample/issues"
+  },
+  "homepage": "https://github.com/YuanClouds/RnSample",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-native": "^0.39.2"
+  }
+}
