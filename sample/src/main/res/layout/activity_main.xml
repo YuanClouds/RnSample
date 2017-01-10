@@ -15,7 +15,52 @@
         >
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="props与state"
+            android:onClick="onClickProps"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="styles"
+            android:onClick="onClickStyles"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flexbox布局"
+            android:onClick="onClickFlexbox"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="基本组件"
+            android:onClick="onClickBaseWidget"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络应用"
+            android:onClick="onClickNetwork"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="导航器"
+            android:onClick="onClickNavigator"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进阶指南"
+            android:onClick="onClickAdvance"
+            />
 
     </LinearLayout>
 

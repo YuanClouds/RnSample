@@ -1,4 +1,4 @@
-package com.yuan.rn;
+package com.yuan.rn.fuctions.base;
 
 import com.facebook.react.ReactActivity;
 

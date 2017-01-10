@@ -15,7 +15,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TestActivity"/>
+        <activity android:name=".fuctions.base.TestActivity"/>
     </application>
 
 </manifest>
